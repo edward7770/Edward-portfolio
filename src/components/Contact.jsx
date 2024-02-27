@@ -36,7 +36,7 @@ const Contact = () => {
     // gmail service ID: service_me64jak
     
 
-    emailjs.send('service_me64jak', 'template_21a02ln', { from_name: form.name, to_name: "Dmytro", from_email: form.email, to_email: 'edward1997703@gmail.com', message: form.message }, '04unMmx332w3ItVL3')
+    emailjs.send('service_me64jak', 'template_21a02ln', { from_name: form.name, to_name: "Edward", from_email: form.email, to_email: 'edwardthomas7770@gmail.com', message: form.message }, '04unMmx332w3ItVL3')
       .then(() => {
         setLoading(false);
         alert("Thank you! I will get back to you as soon as possbile.");
