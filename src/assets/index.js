@@ -39,7 +39,17 @@ import devurai from "./company/SYNOPTEK.png";
 import EIS from "./company/apptio.png";
 import intive from "./company/anaplan.png";
 
+import skype from "./skype.png";
+import telegram from "./telegram.png";
+import whatsapp from "./whatsapp.png";
+import linkedin from "./linkedin.png";
+// import github from "./github.png";
+
 export {
+  skype,
+  telegram,
+  whatsapp,
+  linkedin,
   devurai,
   EIS,
   intive,

@@ -30,7 +30,12 @@ import {
   project2,
   project3,
   project4,
-  project5
+  project5,
+  whatsapp,
+  telegram,
+  skype,
+  linkedin,
+  github
 } from "../assets";
 
 export const navLinks = [
@@ -50,19 +55,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Front-end developer",
+    title: "Front-end Frameworks",
     icon: web,
   },
   {
-    title: "Back-end developer",
+    title: "User Interface (UI)",
     icon: mobile,
   },
   {
-    title: "Website Designer",
+    title: "User Experience(UX)",
     icon: backend,
   },
   {
-    title: "Database management",
+    title: "Responsive Web Design",
     icon: creator,
   },
 ];
@@ -149,19 +154,21 @@ const experiences = [
     ],
   },
   {
-    title: "Sr. Full Stack Engineer",
+    title: "Sr. Frontend Engineer",
     company_name: "Anaplan company",
     icon: intive,
     iconBg: "#E6DEDD",
     date: "April 2021 - Dec 2023",
     points: [
-      "Designed and developed front-end and back-end applications including e-commerce platform utilizing React, Node.js, Express.js,and Docker",
-      "Contributed to the migration of applications from monolithic to microservice architecture using React,and Angular.js, achieving 50% scalability improvement and enhanced maintainability and performance",
-      "Refactored a complex legacy JavaScript codebase to TypeScript, resulting in significant improvements in code maintainability and a 30% reduction in type-related errors",
-      "Proficiently engineered server-side logic and RESTful APIs utilizing Node.js, capitalizing on its event-driven architecture and non-blocking I/O model to deliver scalable and high-performance backend services",
-      "Developed the interactive and responsive 3D graphics design feature using Three.js,resulting in an 80% increase in user engagement and a highly positive user experience",
-      "Conducted comprehensive code reviews, averaging 200 lines of code per review, resulting in a 30% reduction in bugs and overall improvement in code quality",
-      "Collaborating with multi-disciplinary teams to deliver exceptional results and communicating effectively with designers, frontend and backend developers, and stakeholders, ensuring alignment and fostering a cohesive working environment"
+      "Designed and developed front-end web applications including e-commerce platform utilizing React, TailwindCSS and Docker",
+      "Converted a complex JS codebase to TypeScript, resulting in improved code maintainability and 30% reduction in type-related errors",
+      "Implemented AWS to seamless iteration in cloud infrastructure to enhance business of company",
+      // "Refactored a complex legacy JavaScript codebase to TypeScript, resulting in significant improvements in code maintainability and a 30% reduction in type-related errors",
+      "Developed the interactive and responsive 3D graphics design feature using Three.js,resulting in an 80% increase in user engagement and a highly positive UX",
+      "Created 3 efficient,reusable frontend systems to drive web apps to marketplace",
+      // "Participated in each step of product development process from ideas to development improvement for features reaching over 150,000 users",
+      "Architected product tours with React for a new feature that improved customer adoption by 20% leading to $1M in revenue",
+      "Supervised, and mentored 7 junior team members to achieve high performance and meet goals"
     ],
   },
 ];
@@ -322,4 +329,36 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const publicUrls = {
+  resume:
+    "https://drive.google.com/file/d/1K1sE3S1Knxm__K0-STEXgPiesnf79pTl/view?usp=sharing",
+  socialProfiles: {
+    github: {
+      title: "github",
+      link: "https://github.com/edward7770",
+      icon: github,
+    },
+    // linkedin: {
+    //   title: "linkedin",
+    //   link: "https://linkedin.com/in/edwardthomas7770",
+    //   icon: linkedin,
+    // },
+    whatsapp: {
+      title: "whatsapp",
+      link: "https://wa.me/19175636098",
+      icon: whatsapp,
+    },
+    telegram: {
+      title: "telegram",
+      link: "https://t.me/edward703",
+      icon: telegram,
+    },
+    skype: {
+      title: "skype",
+      link: "https://join.skype.com/invite/cn3Zu7bTfgsV",
+      icon: skype,
+    },
+  },
+};
+
+export { services, technologies, experiences, testimonials, projects, publicUrls };

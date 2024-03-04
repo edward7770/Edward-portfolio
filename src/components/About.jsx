@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'
       >
-        Experienced Senior Full Stack Developer with expertise in Javascript Libraries, PHP frameworks and other relevant technologies.<br/> I have 6+ years of experience developing and maintaining innovative software solutions to improve business processes and drive efficiency. Skilled at collaborating with cross-functional teams, gathering requirements, designing scalable software solutions. Successfully delivered a mission-critical software project to a demanding client, leading to a long-term partnership and increased revenue. Enthusiastic about leveraging my skills and experience to contribute to the team's success and drive continuous improvement.
+        Experienced Senior Frontend Web Developer with expertise in Javascript Libraries and frameworks and other relevant technologies. With 7 years of experience developing and maintaining innovative web application solutions to improve business e-commerce processes and drive efficiency. Excelled in UI/ UX design, responsive web development, and performance optimization. With proficiency in frontend frameworks like React.js or Angular, built complex applications with elegance and efficiency. Skilled extend to accessibility, cross-browser compatibility, and animation design, ensuring inclusivity and engagement across diverse user demographics. Enthusiastic about leveraging my skills and experience to contribute to the team's success and drive continuous improvement
         <br/><b>Let's bring your ideas to real life together!</b>
       </motion.p>
 

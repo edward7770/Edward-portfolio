@@ -42,7 +42,7 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-          Edward Thomas
+            Edward Thomas
           </p>
         </Link>
 
@@ -57,6 +57,11 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li
+            className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+          >
+            <a target="_blank" href='https://drive.google.com/file/d/1YEiMIZBrnj1BoxfTw7H0gNk-jkaHC-Xb/view?usp=sharing'>Resume</a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
